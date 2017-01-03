@@ -1,8 +1,7 @@
 {
-  "name": "vueTree",
-  "description": "A Vue.js project",
+  "name": "fptree__2016",
+  "description": "这是一个基于vue的评论树组件",
   "author": "fangpeng",
-  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --port 3001 --open --inline --hot --content-base dist",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -32,5 +31,8 @@
     "vue-loader": "^9.7.0",
     "webpack": "^2.1.0-beta.25",
     "webpack-dev-server": "^2.1.0-beta.0"
-  }
+  },
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "license": "ISC"
 }

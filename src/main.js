@@ -4,7 +4,7 @@ new Vue({
     data(){
         return {
             treeData:[{
-                constent: '1',
+                constent: '一',
                 flag:true,
                 children: [
                     {
@@ -36,7 +36,7 @@ new Vue({
                     }
                 ]
             }, {
-                constent: '2',
+                constent: '二',
                 flag:true,
                 children: [
                     {
@@ -47,7 +47,7 @@ new Vue({
                     }
                 ]
             }, {
-                constent: '3'
+                constent: '三'
             }]
         }
     },
