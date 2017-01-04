@@ -4,6 +4,7 @@
             <li v-for="(lis,i) in model">
                 <span>{{lis.constent}}</span>
                 <template v-if="lis.children">
+                    <!--这里的flag就是判断是否折叠-->
                     <template v-if="lis.flag">
                         <div class="isFold" @click="isFoldFn(lis.flag,i)">
                             <span>—</span>
